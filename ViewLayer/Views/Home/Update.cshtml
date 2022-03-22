@@ -1,0 +1,33 @@
+﻿@using Models
+@model Student
+@{
+    ViewBag.Title = "Update";
+}
+
+@section pagename
+{
+    <h1>Update page</h1>
+}
+<div class="container">
+    @using (Html.BeginForm("Update", "Home"))
+    {
+    <div>
+        <div class="mb-3">
+            <label class="form-label">Name</label>
+            @Html.TextBoxFor(i => i.Name, new { @value = Model.Name, @class = "form-control" })
+            @Html.ValidationMessageFor(i => i.Name)
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Age</label>
+            @Html.TextBoxFor(i => i.Age, new { @value = Model.Age, @class = "form-control" })
+            @Html.ValidationMessageFor(i => i.Age)
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Grade</label>
+            @Html.TextBoxFor(i => i.Grade, new { @value = Model.Grade, @class = "form-control" })
+        </div>
+        <input type="submit" value="update" class="btn btn-primary" />
+    </div>
+    }
+</div>
+

@@ -1,0 +1,33 @@
+﻿@using Models
+@model IQueryable<Student>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">grade</th>
+            <th scope="col">operations</th>
+        </tr>
+    </thead>
+    <tbody>
+        @ShowData(Model)
+    </tbody>
+</table>
+
+@helper ShowData(IQueryable<Student> list)
+{
+    foreach (var std in list)
+    {
+        <tr>
+            <td>@std.Name</td>
+            <td>@std.Age</td>
+            <td>@std.Grade</td>
+            <td>
+                <a href="/Home/Update/@std.ID" class="btn btn-primary">update</a>
+                <a href="/Home/Delete/@std.ID" class="btn btn-danger">delete</a>
+            </td>
+
+        </tr>
+    }
+}

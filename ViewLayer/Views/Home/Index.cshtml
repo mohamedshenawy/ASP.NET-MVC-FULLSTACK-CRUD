@@ -1,0 +1,27 @@
+﻿@using Models
+@model IQueryable<Student>
+@{
+    ViewBag.Title = "Index";
+}
+
+@section pagename    
+{
+    <h1>Home page</h1>
+}
+<div class="container">
+    <h1>Crud Operations</h1>
+    @Html.ActionLink("create student", "Create", null, new { @class = "btn btn-primary mb-1 mt-1" })
+
+    @using (Ajax.BeginForm("Index" , "Home" , new AjaxOptions { 
+    HttpMethod = "Post", 
+    InsertionMode = InsertionMode.Replace , 
+    UpdateTargetId="temp" 
+    }))
+    { 
+        <div id="temp">
+            @Html.Partial("_IndexPartial", Model)
+        </div>
+    }
+    
+</div>
+

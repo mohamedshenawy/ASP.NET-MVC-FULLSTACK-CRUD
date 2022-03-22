@@ -1,0 +1,17 @@
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\bin\Debug\DataContext.dll.config
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\bin\Debug\DataContext.dll
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\bin\Debug\DataContext.pdb
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\bin\Debug\EntityFramework.dll
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\bin\Debug\EntityFramework.SqlServer.dll
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\bin\Debug\Models.dll
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\bin\Debug\Models.pdb
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\bin\Debug\EntityFramework.xml
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\bin\Debug\EntityFramework.SqlServer.xml
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\obj\Debug\DataContext.csproj.AssemblyReference.cache
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\obj\Debug\DataContext.csproj.CoreCompileInputs.cache
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\obj\Debug\DataContext.csproj.CopyComplete
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\obj\Debug\DataContext.dll
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\obj\Debug\DataContext.pdb
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\obj\Debug\DataContext.Migrations.init.resources
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\obj\Debug\DataContext.csproj.GenerateResource.cache
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\DataContext\obj\Debug\DataContext.Migrations.makepasswordrequird.resources

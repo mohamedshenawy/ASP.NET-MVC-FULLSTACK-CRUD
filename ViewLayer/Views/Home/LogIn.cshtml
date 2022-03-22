@@ -1,0 +1,25 @@
+﻿@using Models
+@model User
+@{
+    ViewBag.Title = "LogIn";
+}
+
+@section pagename
+{
+    <h1>Log In page</h1>
+}
+
+@using (Html.BeginForm("LogIn", "Home"))
+{
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        @Html.TextBoxFor(i => i.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(i => i.Name)
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Password</label>
+        @Html.TextBoxFor(i => i.Password, new { @class = "form-control" })
+        @Html.ValidationMessageFor(i => i.Password)
+    </div>
+    <input type="submit" value="Log In" />
+}

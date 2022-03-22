@@ -1,0 +1,39 @@
+﻿@using Models
+@model Student
+@{
+    ViewBag.Title = "Create";
+}
+
+@section pagename
+{
+    <h1>Create page</h1>
+}
+<div class="container">
+    @using (Html.BeginForm("Create" , "Home"))
+    {
+    <div id="temp">
+        <div>
+            <div class="mb-3">
+                <label class="form-label">Name</label>
+                @Html.TextBoxFor(i => i.Name, new { @class = "form-control" })
+                @Html.ValidationMessageFor(i => i.Name)
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Age</label>
+                @Html.TextBoxFor(i => i.Age, new { @class = "form-control" })
+                @Html.ValidationMessageFor(i => i.Age)
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Grade</label>
+                @Html.TextBoxFor(i => i.Grade, new { @class = "form-control" })
+            </div>
+            <input type="submit" value="create" class="btn btn-primary" />
+        </div>
+    </div>
+    }
+    
+    
+    
+
+</div>
+

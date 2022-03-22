@@ -1,0 +1,5 @@
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\Models\bin\Debug\Models.dll
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\Models\bin\Debug\Models.pdb
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\Models\obj\Debug\Models.dll
+F:\ITI-three months\11.asp.net\Day5\TaskSolution\Crud Operations\Models\obj\Debug\Models.pdb
